@@ -15,11 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
+L USB_Type-C:USB_C_Receptacle_HRO_TYPE-C-31-M-12 J1
 U 1 1 5CF95BEF
 P 1100 5800
 F 0 "J1" H 1207 6667 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1207 6576 50  0000 C CNN
+F 1 "USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1207 6576 50  0000 C CNN
 F 2 "USB_Type-C:USB_C_Receptacle_HRO_TYPE-C-31-M-12-HandSoldering" H 1250 5800 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 5800 50  0001 C CNN
 	1    1100 5800
