@@ -694,18 +694,11 @@ Wire Wire Line
 	3000 5200 3000 5500
 Connection ~ 3000 5500
 Wire Wire Line
-	1650 3800 2350 3800
-Wire Wire Line
-	2000 3850 2000 3750
-Wire Wire Line
 	2000 3300 2000 3250
 Wire Wire Line
 	2000 3250 1850 3250
 Wire Wire Line
 	1850 3750 2000 3750
-Connection ~ 2000 3750
-Wire Wire Line
-	2000 3750 2000 3700
 $Comp
 L power:VCC #PWR08
 U 1 1 5CFA87A5
@@ -1022,6 +1015,13 @@ Connection ~ 3600 5900
 Wire Wire Line
 	3600 5900 3700 5900
 Wire Wire Line
+	2000 3850 2000 3800
+Wire Wire Line
+	2350 3800 2000 3800
+Connection ~ 2000 3800
+Wire Wire Line
+	1650 3800 2000 3800
+Wire Wire Line
 	5600 3200 6900 3200
 Wire Bus Line
 	6250 2750 6250 3200
@@ -1031,4 +1031,9 @@ Wire Bus Line
 	7000 2500 7000 6000
 Wire Bus Line
 	7500 2500 7500 6000
+Wire Wire Line
+	2000 3700 2000 3750
+Connection ~ 2000 3750
+Wire Wire Line
+	2000 3750 2000 3800
 $EndSCHEMATC
