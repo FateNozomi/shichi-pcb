@@ -364,15 +364,15 @@ Wire Wire Line
 	5600 4300 6900 4300
 Entry Wire Line
 	6900 4300 7000 4400
-Text Label 6900 4500 2    50   ~ 0
-row1
 Text Label 6900 4300 2    50   ~ 0
+row1
+Text Label 6900 3800 2    50   ~ 0
 row4
 Text Label 6900 4200 2    50   ~ 0
 row0
-Text Label 6900 3300 2    50   ~ 0
+Text Label 6900 4500 2    50   ~ 0
 row2
-Text Label 6900 3400 2    50   ~ 0
+Text Label 6900 5200 2    50   ~ 0
 row3
 Wire Wire Line
 	5600 5300 6900 5300
@@ -384,31 +384,31 @@ Entry Wire Line
 	6900 5200 7000 5300
 Text Label 6900 5300 2    50   ~ 0
 col0
-Text Label 6900 5200 2    50   ~ 0
+Text Label 6900 5400 2    50   ~ 0
 col1
 Wire Wire Line
 	5600 2800 6900 2800
 Entry Wire Line
 	6900 2800 7000 2900
-Text Label 6900 2800 2    50   ~ 0
+Text Label 6900 5500 2    50   ~ 0
 col2
 Wire Wire Line
 	5600 3800 6900 3800
 Entry Wire Line
 	6900 3800 7000 3900
-Text Label 6900 3800 2    50   ~ 0
+Text Label 6900 5600 2    50   ~ 0
 col3
 Wire Wire Line
 	5600 5400 6900 5400
 Entry Wire Line
 	6900 5400 7000 5500
-Text Label 6900 5400 2    50   ~ 0
+Text Label 6900 2800 2    50   ~ 0
 col4
 Wire Wire Line
 	5600 5500 6900 5500
 Entry Wire Line
 	6900 5500 7000 5600
-Text Label 6900 5500 2    50   ~ 0
+Text Label 6900 2900 2    50   ~ 0
 col5
 Wire Wire Line
 	5600 5600 6900 5600
@@ -418,7 +418,7 @@ Wire Wire Line
 	5600 5700 6900 5700
 Entry Wire Line
 	6900 5700 7000 5800
-Text Label 6900 5600 2    50   ~ 0
+Text Label 6900 3000 2    50   ~ 0
 col6
 Text Label 6900 5700 2    50   ~ 0
 col7
@@ -426,13 +426,13 @@ Wire Wire Line
 	5600 4400 6900 4400
 Entry Wire Line
 	6900 4400 7000 4500
-Text Label 6900 4400 2    50   ~ 0
+Text Label 6900 3400 2    50   ~ 0
 col8
 Wire Wire Line
 	5600 4600 6900 4600
 Entry Wire Line
 	6900 4600 7000 4700
-Text Label 6900 4600 2    50   ~ 0
+Text Label 6900 3300 2    50   ~ 0
 col9
 Entry Wire Line
 	6900 3200 7000 3300
@@ -463,9 +463,9 @@ Entry Wire Line
 	6900 2900 7000 3000
 Entry Wire Line
 	6900 3000 7000 3100
-Text Label 6900 2900 2    50   ~ 0
+Text Label 6900 4600 2    50   ~ 0
 col12
-Text Label 6900 3000 2    50   ~ 0
+Text Label 6900 4400 2    50   ~ 0
 col13
 Wire Wire Line
 	7600 2800 8000 2800
@@ -1022,6 +1022,11 @@ Connection ~ 2000 3800
 Wire Wire Line
 	1650 3800 2000 3800
 Wire Wire Line
+	2000 3700 2000 3750
+Connection ~ 2000 3750
+Wire Wire Line
+	2000 3750 2000 3800
+Wire Wire Line
 	5600 3200 6900 3200
 Wire Bus Line
 	6250 2750 6250 3200
@@ -1031,9 +1036,4 @@ Wire Bus Line
 	7000 2500 7000 6000
 Wire Bus Line
 	7500 2500 7500 6000
-Wire Wire Line
-	2000 3700 2000 3750
-Connection ~ 2000 3750
-Wire Wire Line
-	2000 3750 2000 3800
 $EndSCHEMATC
