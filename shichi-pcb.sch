@@ -649,8 +649,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 2800 4250 2800
 Connection ~ 4100 2800
-Wire Wire Line
-	6600 1100 7000 1100
 Entry Wire Line
 	6600 1100 6500 1200
 Wire Wire Line
@@ -671,8 +669,6 @@ Text Label 6600 1100 0    50   ~ 0
 MISO
 Wire Wire Line
 	7000 1200 6900 1200
-Wire Wire Line
-	6900 1200 6900 1000
 Wire Wire Line
 	5000 6500 5000 6300
 Connection ~ 5000 6300
@@ -951,17 +947,6 @@ F 3 "" H 4100 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J2
-U 1 1 5D041F2E
-P 4300 7050
-F 0 "J2" H 4408 7331 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 4408 7240 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4300 7050 50  0001 C CNN
-F 3 "~" H 4300 7050 50  0001 C CNN
-	1    4300 7050
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR010
 U 1 1 5CFB0CA6
 P 4100 7250
@@ -971,17 +956,6 @@ F 2 "" H 4100 7250 50  0001 C CNN
 F 3 "" H 4100 7250 50  0001 C CNN
 	1    4100 7250
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x06_Male J3
-U 1 1 5D07F3E6
-P 7200 1300
-F 0 "J3" H 7172 1274 50  0000 R CNN
-F 1 "Conn_01x06_Male" H 7172 1183 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7200 1300 50  0001 C CNN
-F 3 "~" H 7200 1300 50  0001 C CNN
-	1    7200 1300
-	-1   0    0    -1  
 $EndComp
 Text GLabel 6900 1500 0    50   Input ~ 0
 RESET
@@ -1026,6 +1000,118 @@ Wire Wire Line
 Connection ~ 2000 3750
 Wire Wire Line
 	2000 3750 2000 3800
+Text GLabel 5600 4100 2    50   Input ~ 0
+SDA
+Text GLabel 5600 4000 2    50   Input ~ 0
+SCL
+Text GLabel 8500 1100 0    50   Input ~ 0
+SCL
+Text GLabel 8500 1200 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	6900 1200 6900 1000
+Wire Wire Line
+	6600 1100 7000 1100
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 5D07F3E6
+P 7200 1300
+F 0 "J3" H 7172 1274 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 7172 1183 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7200 1300 50  0001 C CNN
+F 3 "~" H 7200 1300 50  0001 C CNN
+	1    7200 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR024
+U 1 1 5D01C4D7
+P 8500 1300
+F 0 "#PWR024" H 8500 1150 50  0001 C CNN
+F 1 "VCC" H 8517 1473 50  0000 C CNN
+F 2 "" H 8500 1300 50  0001 C CNN
+F 3 "" H 8500 1300 50  0001 C CNN
+	1    8500 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5D01D767
+P 8500 1400
+F 0 "#PWR025" H 8500 1150 50  0001 C CNN
+F 1 "GND" H 8505 1227 50  0000 C CNN
+F 2 "" H 8500 1400 50  0001 C CNN
+F 3 "" H 8500 1400 50  0001 C CNN
+	1    8500 1400
+	0    1    1    0   
+$EndComp
+Text GLabel 5600 3500 2    50   Input ~ 0
+B7
+Text GLabel 5600 3700 2    50   Input ~ 0
+C6
+Text GLabel 5600 5000 2    50   Input ~ 0
+E6
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 5D07EA53
+P 10200 1100
+F 0 "J5" H 10172 1032 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 10172 1123 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10200 1100 50  0001 C CNN
+F 3 "~" H 10200 1100 50  0001 C CNN
+	1    10200 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J6
+U 1 1 5D07FB62
+P 10200 1300
+F 0 "J6" H 10172 1232 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 10172 1323 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10200 1300 50  0001 C CNN
+F 3 "~" H 10200 1300 50  0001 C CNN
+	1    10200 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J7
+U 1 1 5D080441
+P 10200 1500
+F 0 "J7" H 10172 1432 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 10172 1523 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10200 1500 50  0001 C CNN
+F 3 "~" H 10200 1500 50  0001 C CNN
+	1    10200 1500
+	-1   0    0    1   
+$EndComp
+Text GLabel 10000 1100 0    50   Input ~ 0
+B7
+Text GLabel 10000 1300 0    50   Input ~ 0
+C6
+Text GLabel 10000 1500 0    50   Input ~ 0
+E6
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5D000828
+P 4300 7050
+F 0 "J2" H 4272 7024 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 4272 6933 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4300 7050 50  0001 C CNN
+F 3 "~" H 4300 7050 50  0001 C CNN
+	1    4300 7050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5D005F7A
+P 8700 1200
+F 0 "J4" H 8672 1174 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8672 1083 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8700 1200 50  0001 C CNN
+F 3 "~" H 8700 1200 50  0001 C CNN
+	1    8700 1200
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
 	5600 3200 6900 3200
 Wire Bus Line
