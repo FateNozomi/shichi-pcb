@@ -358,17 +358,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:MCP1825S U1
-U 1 1 5D192517
-P 4000 5050
-F 0 "U1" H 4000 5292 50  0000 C CNN
-F 1 "MCP1825S" H 4000 5201 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 3900 5200 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf" H 4000 5300 50  0001 C CNN
-	1    4000 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5D1ED8F7
 P 3550 5300
@@ -1025,4 +1014,15 @@ Text GLabel 1450 7300 2    50   Input ~ 0
 D+Bus
 Text GLabel 1450 7200 2    50   Input ~ 0
 D-Bus
+$Comp
+L Regulator_Linear:MCP1700-3302E_SOT23 U1
+U 1 1 5D1F289F
+P 4000 5050
+F 0 "U1" H 4000 5292 50  0000 C CNN
+F 1 "MCP1700-3302E_SOT23" H 4000 5201 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 5275 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 4000 5050 50  0001 C CNN
+	1    4000 5050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
