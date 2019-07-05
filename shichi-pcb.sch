@@ -282,10 +282,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 5150 2350 5250
 Wire Wire Line
-	4450 7050 4500 7050
-Wire Wire Line
-	4450 5950 4500 5950
-Wire Wire Line
 	4550 6500 4550 6550
 Wire Wire Line
 	4500 6500 4550 6500
@@ -319,13 +315,13 @@ Wire Wire Line
 	4100 7050 4100 7000
 Wire Wire Line
 	4150 7050 4100 7050
-Text GLabel 4500 7050 2    50   Input ~ 0
+Text GLabel 4150 7050 2    50   Input ~ 0
 D+
 Wire Wire Line
 	4100 5950 4100 6000
 Wire Wire Line
 	4150 5950 4100 5950
-Text GLabel 4500 5950 2    50   Input ~ 0
+Text GLabel 4150 5950 2    50   Input ~ 0
 D-
 Wire Wire Line
 	3900 7050 3900 7000
@@ -339,28 +335,6 @@ Text GLabel 3850 7050 0    50   Input ~ 0
 D+Bus
 Text GLabel 3850 5950 0    50   Input ~ 0
 D-Bus
-$Comp
-L Device:R R6
-U 1 1 5CFC0556
-P 4300 7050
-F 0 "R6" H 4250 7000 50  0000 R CNN
-F 1 "22" H 4250 7100 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 7050 50  0001 C CNN
-F 3 "~" H 4300 7050 50  0001 C CNN
-	1    4300 7050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5CFC2C41
-P 4300 5950
-F 0 "R5" H 4250 5900 50  0000 R CNN
-F 1 "22" H 4250 6000 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 5950 50  0001 C CNN
-F 3 "~" H 4300 5950 50  0001 C CNN
-	1    4300 5950
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Power_Protection:USBLC6-2SC6 U2
 U 1 1 5CF98D69
@@ -1007,10 +981,10 @@ $EndComp
 Text GLabel 5500 7000 0    50   Input ~ 0
 AUDIO_0
 $Comp
-L Device:R R7
+L Device:R R5
 U 1 1 5D35C35E
 P 5750 7000
-F 0 "R7" H 5800 7050 50  0000 L CNN
+F 0 "R5" H 5800 7050 50  0000 L CNN
 F 1 "1k" H 5800 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5680 7000 50  0001 C CNN
 F 3 "~" H 5750 7000 50  0001 C CNN
