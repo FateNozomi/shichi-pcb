@@ -766,49 +766,49 @@ Text GLabel 8500 5200 0    50   Input ~ 0
 COL12
 Text GLabel 8500 5300 0    50   Input ~ 0
 COL13
-Text GLabel 5900 4300 0    50   Input ~ 0
-ROW0
-Text GLabel 5900 4200 0    50   Input ~ 0
-ROW1
-Text GLabel 7200 4900 2    50   Input ~ 0
-ROW2
-Text GLabel 7200 4300 2    50   Input ~ 0
-ROW3
-Text GLabel 7200 5000 2    50   Input ~ 0
-ROW4
-Text GLabel 5900 4400 0    50   Input ~ 0
-COL0
-Text GLabel 5900 5200 0    50   Input ~ 0
-COL1
 Text GLabel 5900 5300 0    50   Input ~ 0
-COL2
-Text GLabel 7200 4200 2    50   Input ~ 0
-COL3
-Text GLabel 7200 5700 2    50   Input ~ 0
-COL4
-Text GLabel 5900 4500 0    50   Input ~ 0
-COL5
-Text GLabel 5900 4600 0    50   Input ~ 0
-COL6
-Text GLabel 5900 4700 0    50   Input ~ 0
-COL7
-Text GLabel 5900 4800 0    50   Input ~ 0
-COL8
-Text GLabel 5900 4900 0    50   Input ~ 0
-COL9
-Text GLabel 5900 5000 0    50   Input ~ 0
-COL10
-Text GLabel 5900 5100 0    50   Input ~ 0
-COL11
-Text GLabel 5900 3800 0    50   Input ~ 0
-COL12
+ROW0
+Text GLabel 5900 5200 0    50   Input ~ 0
+ROW1
+Text GLabel 5900 4400 0    50   Input ~ 0
+ROW2
+Text GLabel 5900 4000 0    50   Input ~ 0
+ROW3
 Text GLabel 5900 3900 0    50   Input ~ 0
+ROW4
+Text GLabel 5900 4300 0    50   Input ~ 0
+COL0
+Text GLabel 5900 4200 0    50   Input ~ 0
+COL1
+Text GLabel 7200 4900 2    50   Input ~ 0
+COL2
+Text GLabel 7200 4500 2    50   Input ~ 0
+COL3
+Text GLabel 7200 4400 2    50   Input ~ 0
+COL4
+Text GLabel 7200 4300 2    50   Input ~ 0
+COL5
+Text GLabel 7200 4200 2    50   Input ~ 0
+COL6
+Text GLabel 5900 3800 0    50   Input ~ 0
+COL7
+Text GLabel 5900 5100 0    50   Input ~ 0
+COL8
+Text GLabel 5900 5000 0    50   Input ~ 0
+COL9
+Text GLabel 5900 4700 0    50   Input ~ 0
+COL10
+Text GLabel 5900 4600 0    50   Input ~ 0
+COL11
+Text GLabel 5900 4500 0    50   Input ~ 0
+COL12
+Text GLabel 7200 5700 2    50   Input ~ 0
 COL13
 NoConn ~ 7200 4800
-NoConn ~ 5900 5700
-Text GLabel 7200 5200 2    50   Input ~ 0
+NoConn ~ 7200 5000
+Text GLabel 5900 4900 0    50   Input ~ 0
 SDA
-Text GLabel 7200 5100 2    50   Input ~ 0
+Text GLabel 5900 4800 0    50   Input ~ 0
 SCL
 $Comp
 L power:+3.3V #PWR028
@@ -866,10 +866,10 @@ F 3 "" H 3550 4950 50  0001 C CNN
 	1    3550 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7200 4400 2    50   Input ~ 0
-A2
-Text GLabel 7200 4500 2    50   Input ~ 0
-A3
+Text GLabel 5900 5600 0    50   Input ~ 0
+B14
+Text GLabel 5900 5700 0    50   Input ~ 0
+B15
 $Comp
 L power:GND #PWR017
 U 1 1 5D30B602
@@ -902,14 +902,14 @@ Wire Wire Line
 	6500 6000 6600 6000
 NoConn ~ 5900 3500
 NoConn ~ 5900 3600
-NoConn ~ 5900 4000
-NoConn ~ 5900 5400
+NoConn ~ 7200 5100
 NoConn ~ 5900 5500
-NoConn ~ 5900 5600
+NoConn ~ 7200 5200
+NoConn ~ 5900 5400
 Text GLabel 10500 2800 2    50   Input ~ 0
-A2
+B14
 Text GLabel 10500 2900 2    50   Input ~ 0
-A3
+B15
 Text GLabel 10500 3250 2    50   Input ~ 0
 AUDIO_1
 $Comp
