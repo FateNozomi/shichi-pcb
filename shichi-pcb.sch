@@ -772,9 +772,9 @@ Text GLabel 5900 5200 0    50   Input ~ 0
 ROW1
 Text GLabel 5900 4400 0    50   Input ~ 0
 ROW2
-Text GLabel 5900 4000 0    50   Input ~ 0
-ROW3
 Text GLabel 5900 3900 0    50   Input ~ 0
+ROW3
+Text GLabel 5900 4000 0    50   Input ~ 0
 ROW4
 Text GLabel 5900 4300 0    50   Input ~ 0
 COL0
