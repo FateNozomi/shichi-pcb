@@ -997,4 +997,92 @@ Wire Wire Line
 Connection ~ 3750 3000
 Wire Wire Line
 	3750 3000 3800 3000
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D286FF1
+P 10250 4500
+F 0 "H1" H 10350 4546 50  0000 L CNN
+F 1 "MountingHole" H 10350 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10250 4500 50  0001 C CNN
+F 3 "~" H 10250 4500 50  0001 C CNN
+	1    10250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D289B87
+P 10250 4700
+F 0 "H2" H 10350 4746 50  0000 L CNN
+F 1 "MountingHole" H 10350 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10250 4700 50  0001 C CNN
+F 3 "~" H 10250 4700 50  0001 C CNN
+	1    10250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D28A2AE
+P 10250 4900
+F 0 "H3" H 10350 4946 50  0000 L CNN
+F 1 "MountingHole" H 10350 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10250 4900 50  0001 C CNN
+F 3 "~" H 10250 4900 50  0001 C CNN
+	1    10250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D28A525
+P 10250 5100
+F 0 "H4" H 10350 5146 50  0000 L CNN
+F 1 "MountingHole" H 10350 5055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10250 5100 50  0001 C CNN
+F 3 "~" H 10250 5100 50  0001 C CNN
+	1    10250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5D28A77B
+P 10250 5300
+F 0 "H5" H 10350 5346 50  0000 L CNN
+F 1 "MountingHole" H 10350 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10250 5300 50  0001 C CNN
+F 3 "~" H 10250 5300 50  0001 C CNN
+	1    10250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5D28A98E
+P 10250 5500
+F 0 "H6" H 10350 5546 50  0000 L CNN
+F 1 "MountingHole" H 10350 5455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10250 5500 50  0001 C CNN
+F 3 "~" H 10250 5500 50  0001 C CNN
+	1    10250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5D28ABAE
+P 10250 5700
+F 0 "H7" H 10350 5746 50  0000 L CNN
+F 1 "MountingHole" H 10350 5655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10250 5700 50  0001 C CNN
+F 3 "~" H 10250 5700 50  0001 C CNN
+	1    10250 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5D28AE2C
+P 10250 5900
+F 0 "H8" H 10350 5946 50  0000 L CNN
+F 1 "MountingHole" H 10350 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10250 5900 50  0001 C CNN
+F 3 "~" H 10250 5900 50  0001 C CNN
+	1    10250 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
