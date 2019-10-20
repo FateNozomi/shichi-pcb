@@ -798,10 +798,6 @@ F 3 "" H 3550 4950 50  0001 C CNN
 	1    3550 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 5600 0    50   Input ~ 0
-B14
-Text GLabel 5900 5700 0    50   Input ~ 0
-B15
 $Comp
 L power:GND #PWR014
 U 1 1 5D30B602
@@ -838,23 +834,8 @@ NoConn ~ 7200 5100
 NoConn ~ 5900 5500
 NoConn ~ 7200 5200
 NoConn ~ 5900 5400
-Text GLabel 10500 2800 2    50   Input ~ 0
-B14
-Text GLabel 10500 2900 2    50   Input ~ 0
-B15
 Text GLabel 10500 3250 2    50   Input ~ 0
 AUDIO_1
-$Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 5D328A73
-P 10300 2800
-F 0 "J4" H 10408 2981 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 10408 2890 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10300 2800 50  0001 C CNN
-F 3 "~" H 10300 2800 50  0001 C CNN
-	1    10300 2800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_01x04_Male J3
 U 1 1 5D331FB5
@@ -1048,4 +1029,6 @@ F 3 "~" H 10250 5900 50  0001 C CNN
 	1    10250 5900
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5900 5600
+NoConn ~ 5900 5700
 $EndSCHEMATC
