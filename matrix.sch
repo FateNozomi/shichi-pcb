@@ -766,7 +766,7 @@ U 1 1 5D15C31B
 P 4700 3700
 F 0 "K62" H 4700 3985 50  0000 C CNN
 F 1 "SW_Push" H 4700 3894 50  0000 C CNN
-F 2 "MX_Switch:MX_1.00u_PCB" H 4700 3900 50  0001 C CNN
+F 2 "MX_Switch:MX_7.00u_PCB_ReversedStabilizers" H 4700 3900 50  0001 C CNN
 F 3 "~" H 4700 3900 50  0001 C CNN
 	1    4700 3700
 	1    0    0    -1  
@@ -2004,17 +2004,6 @@ F 3 "~" H 4100 4500 50  0001 C CNN
 	1    4100 4300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push K72
-U 1 1 5D19EFD9
-P 4700 4300
-F 0 "K72" H 4700 4585 50  0000 C CNN
-F 1 "SW_Push" H 4700 4494 50  0000 C CNN
-F 2 "MX_Switch:MX_6.25u_PCB_ReversedStabilizers" H 4700 4500 50  0001 C CNN
-F 3 "~" H 4700 4500 50  0001 C CNN
-	1    4700 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 4300 4350 4300
 Wire Wire Line
@@ -2025,21 +2014,11 @@ Connection ~ 4300 3700
 Wire Wire Line
 	3900 4300 3900 3700
 Connection ~ 3900 3700
-Wire Wire Line
-	4900 4300 4950 4300
-Wire Wire Line
-	4950 4300 4950 3700
-Wire Wire Line
-	4950 3700 4900 3700
-Connection ~ 4900 3700
-Wire Wire Line
-	4500 4300 4500 3700
-Connection ~ 4500 3700
 $Comp
-L Switch:SW_Push K73
+L Switch:SW_Push K72
 U 1 1 5DAE746D
 P 5300 4300
-F 0 "K73" H 5300 4585 50  0000 C CNN
+F 0 "K72" H 5300 4585 50  0000 C CNN
 F 1 "SW_Push" H 5300 4494 50  0000 C CNN
 F 2 "MX_Switch:MX_2.00u_PCB_ReversedStabilizers" H 5300 4500 50  0001 C CNN
 F 3 "~" H 5300 4500 50  0001 C CNN
@@ -2056,25 +2035,4 @@ Wire Wire Line
 Wire Wire Line
 	5550 3700 5500 3700
 Connection ~ 5500 3700
-$Comp
-L Switch:SW_Push K74
-U 1 1 5DB0334E
-P 7100 4300
-F 0 "K74" H 7100 4585 50  0000 C CNN
-F 1 "SW_Push" H 7100 4494 50  0000 C CNN
-F 2 "MX_Switch:MX_1.00u_PCB" H 7100 4500 50  0001 C CNN
-F 3 "~" H 7100 4500 50  0001 C CNN
-	1    7100 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 4300 7350 4300
-Wire Wire Line
-	7350 4300 7350 3700
-Wire Wire Line
-	7350 3700 7300 3700
-Connection ~ 7300 3700
-Wire Wire Line
-	6900 4300 6900 3700
-Connection ~ 6900 3700
 $EndSCHEMATC
