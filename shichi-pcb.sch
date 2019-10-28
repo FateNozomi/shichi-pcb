@@ -154,32 +154,10 @@ F 3 "" H 7300 1700 50  0001 C CNN
 	1    7300 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 5CFB6809
-P 10500 1600
-F 0 "#PWR024" H 10500 1350 50  0001 C CNN
-F 1 "GND" H 10505 1427 50  0000 C CNN
-F 2 "" H 10500 1600 50  0001 C CNN
-F 3 "" H 10500 1600 50  0001 C CNN
-	1    10500 1600
-	0    -1   -1   0   
-$EndComp
 Text GLabel 10500 2100 2    50   Input ~ 0
 SCL
 Text GLabel 10500 2200 2    50   Input ~ 0
 SDA
-$Comp
-L power:GND #PWR026
-U 1 1 5D01D767
-P 10500 2400
-F 0 "#PWR026" H 10500 2150 50  0001 C CNN
-F 1 "GND" H 10505 2227 50  0000 C CNN
-F 2 "" H 10500 2400 50  0001 C CNN
-F 3 "" H 10500 2400 50  0001 C CNN
-	1    10500 2400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:Polyfuse F1
 U 1 1 5D00DD08
@@ -312,7 +290,7 @@ L Device:C C3
 U 1 1 5D1F672E
 P 4450 5300
 F 0 "C3" H 4565 5346 50  0000 L CNN
-F 1 "1uF" H 4565 5255 50  0000 L CNN
+F 1 "4.7uF" H 4565 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4488 5150 50  0001 C CNN
 F 3 "~" H 4450 5300 50  0001 C CNN
 	1    4450 5300
@@ -659,84 +637,59 @@ Text GLabel 8500 5200 0    50   Input ~ 0
 COL12
 Text GLabel 8500 5300 0    50   Input ~ 0
 COL13
-Text GLabel 5900 5300 0    50   Input ~ 0
-ROW0
-Text GLabel 5900 5200 0    50   Input ~ 0
-ROW1
-Text GLabel 5900 4400 0    50   Input ~ 0
-ROW2
-Text GLabel 5900 3900 0    50   Input ~ 0
-ROW3
-Text GLabel 5900 4000 0    50   Input ~ 0
-ROW4
-Text GLabel 5900 4300 0    50   Input ~ 0
-COL0
-Text GLabel 5900 4200 0    50   Input ~ 0
-COL1
 Text GLabel 7200 4900 2    50   Input ~ 0
-COL2
+ROW0
+Text GLabel 7200 4800 2    50   Input ~ 0
+ROW1
+Text GLabel 7200 4700 2    50   Input ~ 0
+ROW2
 Text GLabel 7200 4500 2    50   Input ~ 0
-COL3
+ROW3
 Text GLabel 7200 4400 2    50   Input ~ 0
+ROW4
+Text GLabel 7200 5100 2    50   Input ~ 0
+COL0
+Text GLabel 7200 5000 2    50   Input ~ 0
+COL1
+Text GLabel 5900 5700 0    50   Input ~ 0
+COL2
+Text GLabel 5900 5600 0    50   Input ~ 0
+COL3
+Text GLabel 5900 5500 0    50   Input ~ 0
 COL4
-Text GLabel 7200 4300 2    50   Input ~ 0
+Text GLabel 5900 5400 0    50   Input ~ 0
 COL5
-Text GLabel 7200 4200 2    50   Input ~ 0
+Text GLabel 5900 5300 0    50   Input ~ 0
 COL6
-Text GLabel 5900 3800 0    50   Input ~ 0
+Text GLabel 5900 5200 0    50   Input ~ 0
 COL7
-Text GLabel 5900 5100 0    50   Input ~ 0
+Text GLabel 5900 4400 0    50   Input ~ 0
 COL8
-Text GLabel 5900 5000 0    50   Input ~ 0
+Text GLabel 5900 4300 0    50   Input ~ 0
 COL9
-Text GLabel 5900 4700 0    50   Input ~ 0
+Text GLabel 5900 4200 0    50   Input ~ 0
 COL10
-Text GLabel 5900 4600 0    50   Input ~ 0
+Text GLabel 7200 4600 2    50   Input ~ 0
 COL11
-Text GLabel 5900 4500 0    50   Input ~ 0
+Text GLabel 7200 4300 2    50   Input ~ 0
 COL12
-Text GLabel 7200 5700 2    50   Input ~ 0
+Text GLabel 7200 4200 2    50   Input ~ 0
 COL13
-NoConn ~ 7200 4800
-NoConn ~ 7200 5000
+NoConn ~ 7200 5200
 Text GLabel 5900 4900 0    50   Input ~ 0
 SDA
 Text GLabel 5900 4800 0    50   Input ~ 0
 SCL
-$Comp
-L power:+3.3V #PWR023
-U 1 1 5D2F0717
-P 10500 1100
-F 0 "#PWR023" H 10500 950 50  0001 C CNN
-F 1 "+3.3V" V 10515 1228 50  0000 L CNN
-F 2 "" H 10500 1100 50  0001 C CNN
-F 3 "" H 10500 1100 50  0001 C CNN
-	1    10500 1100
-	0    1    1    0   
-$EndComp
-Text GLabel 10500 1200 2    50   Input ~ 0
-SWDIO
-Text GLabel 10500 1300 2    50   Input ~ 0
-SWCLK
 Text GLabel 10500 1400 2    50   Input ~ 0
-BOOT0
+SWDIO
+Text GLabel 10500 1200 2    50   Input ~ 0
+SWCLK
 Text GLabel 10500 1500 2    50   Input ~ 0
 NRST
 Text GLabel 7200 5500 2    50   Input ~ 0
 SWDIO
 Text GLabel 7200 5600 2    50   Input ~ 0
 SWCLK
-$Comp
-L power:+5V #PWR025
-U 1 1 5D305D9D
-P 10500 2300
-F 0 "#PWR025" H 10500 2150 50  0001 C CNN
-F 1 "+5V" V 10515 2428 50  0000 L CNN
-F 2 "" H 10500 2300 50  0001 C CNN
-F 3 "" H 10500 2300 50  0001 C CNN
-	1    10500 2300
-	0    1    1    0   
-$EndComp
 $Comp
 L power:+5V #PWR04
 U 1 1 5D30705F
@@ -791,30 +744,17 @@ Wire Wire Line
 	6500 6000 6600 6000
 NoConn ~ 5900 3500
 NoConn ~ 5900 3600
-NoConn ~ 7200 5100
-NoConn ~ 5900 5500
-NoConn ~ 7200 5200
-NoConn ~ 5900 5400
+NoConn ~ 5900 4700
+NoConn ~ 5900 4600
 $Comp
-L Connector:Conn_01x04_Male J3
+L Connector:Conn_01x04_Male I2C1
 U 1 1 5D331FB5
 P 10300 2200
-F 0 "J3" H 10408 2481 50  0000 C CNN
+F 0 "I2C1" H 10408 2481 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 10408 2390 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 10300 2200 50  0001 C CNN
+F 2 "Miscellaneous_Keyboard_Parts:I2C_Header_1x04_P2.54mm_Vertical" H 10300 2200 50  0001 C CNN
 F 3 "~" H 10300 2200 50  0001 C CNN
 	1    10300 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x06_Male J2
-U 1 1 5D340937
-P 10300 1300
-F 0 "J2" H 10408 1681 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 10408 1590 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10300 1300 50  0001 C CNN
-F 3 "~" H 10300 1300 50  0001 C CNN
-	1    10300 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -934,10 +874,8 @@ F 3 "~" H 10250 5900 50  0001 C CNN
 	1    10250 5900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5900 5600
-NoConn ~ 5900 5700
-NoConn ~ 7200 4600
-NoConn ~ 7200 4700
+NoConn ~ 7200 5700
+NoConn ~ 5900 4500
 $Comp
 L Power_Protection:PRTR5V0U2X U2
 U 1 1 5DB1AA0C
@@ -959,4 +897,64 @@ Connection ~ 3500 6750
 Wire Wire Line
 	4500 6650 4500 6750
 Connection ~ 4500 6750
+NoConn ~ 5900 3800
+NoConn ~ 5900 3900
+NoConn ~ 5900 4000
+NoConn ~ 5900 5000
+NoConn ~ 5900 5100
+$Comp
+L Connector:Conn_01x05_Male SWD1
+U 1 1 5DBE2E91
+P 10300 1300
+F 0 "SWD1" H 10408 1681 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 10408 1590 50  0000 C CNN
+F 2 "Miscellaneous_Keyboard_Parts:SWD_Header_1x05_P2.54mm_Vertical" H 10300 1300 50  0001 C CNN
+F 3 "~" H 10300 1300 50  0001 C CNN
+	1    10300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR023
+U 1 1 5D2F0717
+P 10500 1100
+F 0 "#PWR023" H 10500 950 50  0001 C CNN
+F 1 "+3.3V" V 10515 1228 50  0000 L CNN
+F 2 "" H 10500 1100 50  0001 C CNN
+F 3 "" H 10500 1100 50  0001 C CNN
+	1    10500 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR025
+U 1 1 5DBED9C7
+P 10500 2300
+F 0 "#PWR025" H 10500 2150 50  0001 C CNN
+F 1 "+3.3V" V 10515 2428 50  0000 L CNN
+F 2 "" H 10500 2300 50  0001 C CNN
+F 3 "" H 10500 2300 50  0001 C CNN
+	1    10500 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5DBEE9FC
+P 10500 2400
+F 0 "#PWR026" H 10500 2150 50  0001 C CNN
+F 1 "GND" V 10505 2272 50  0000 R CNN
+F 2 "" H 10500 2400 50  0001 C CNN
+F 3 "" H 10500 2400 50  0001 C CNN
+	1    10500 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5DBEF1E3
+P 10500 1300
+F 0 "#PWR024" H 10500 1050 50  0001 C CNN
+F 1 "GND" V 10505 1172 50  0000 R CNN
+F 2 "" H 10500 1300 50  0001 C CNN
+F 3 "" H 10500 1300 50  0001 C CNN
+	1    10500 1300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
