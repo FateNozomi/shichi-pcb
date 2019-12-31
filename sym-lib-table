@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name USB_Type-C)(type Legacy)(uri ${FATE_PARTS}/USB_Type-C.pretty/lib/USB_Type-C.lib)(options "")(descr ""))
+)
